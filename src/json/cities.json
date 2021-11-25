@@ -1,0 +1,1248 @@
+[
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80100",
+        "cityid": 1
+    },
+    {
+        "city_country": "",
+        "city_name": "Kontiolahti",
+        "city_state": "",
+        "city_zipcode": "81100",
+        "cityid": 2
+    },
+    {
+        "city_country": "",
+        "city_name": "Lehmo",
+        "city_state": "",
+        "city_zipcode": "80710",
+        "cityid": 3
+    },
+    {
+        "city_country": "",
+        "city_name": "Outokumpu",
+        "city_state": "",
+        "city_zipcode": "83500",
+        "cityid": 4
+    },
+    {
+        "city_country": "",
+        "city_name": "Polvijärvi",
+        "city_state": "",
+        "city_zipcode": "83700",
+        "cityid": 5
+    },
+    {
+        "city_country": "",
+        "city_name": "Reijola",
+        "city_state": "",
+        "city_zipcode": "80330",
+        "cityid": 6
+    },
+    {
+        "city_country": "",
+        "city_name": "Kitee",
+        "city_state": "",
+        "city_zipcode": "82500",
+        "cityid": 7
+    },
+    {
+        "city_country": "",
+        "city_name": "Tohmajärvi",
+        "city_state": "",
+        "city_zipcode": "82600",
+        "cityid": 8
+    },
+    {
+        "city_country": "",
+        "city_name": "Ilomantsi",
+        "city_state": "",
+        "city_zipcode": "82900",
+        "cityid": 9
+    },
+    {
+        "city_country": "",
+        "city_name": "Nurmes",
+        "city_state": "",
+        "city_zipcode": "75500",
+        "cityid": 10
+    },
+    {
+        "city_country": "",
+        "city_name": "Lieksa",
+        "city_state": "",
+        "city_zipcode": "81700",
+        "cityid": 11
+    },
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80110",
+        "cityid": 13
+    },
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80130",
+        "cityid": 14
+    },
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80140",
+        "cityid": 15
+    },
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80160",
+        "cityid": 16
+    },
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80170",
+        "cityid": 17
+    },
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80200",
+        "cityid": 18
+    },
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80210",
+        "cityid": 19
+    },
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80220",
+        "cityid": 20
+    },
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80230",
+        "cityid": 21
+    },
+    {
+        "city_country": "",
+        "city_name": "Joensuu",
+        "city_state": "",
+        "city_zipcode": "80260",
+        "cityid": 22
+    },
+    {
+        "city_country": "",
+        "city_name": "Valtimo",
+        "city_state": "",
+        "city_zipcode": "75700",
+        "cityid": 23
+    },
+    {
+        "city_country": "",
+        "city_name": "Lieksa",
+        "city_state": "",
+        "city_zipcode": "81720",
+        "cityid": 24
+    },
+    {
+        "city_country": "",
+        "city_name": "Rääkkylä",
+        "city_state": "",
+        "city_zipcode": "82300",
+        "cityid": 25
+    },
+    {
+        "city_country": "",
+        "city_name": "Kontioniemi",
+        "city_state": "",
+        "city_zipcode": "80780",
+        "cityid": 26
+    },
+    {
+        "city_country": "",
+        "city_name": "Kontioranta",
+        "city_state": "",
+        "city_zipcode": "80790",
+        "cityid": 27
+    },
+    {
+        "city_country": "",
+        "city_name": "Koli",
+        "city_state": "",
+        "city_zipcode": "83960",
+        "cityid": 28
+    },
+    {
+        "city_country": "",
+        "city_name": "Kovero",
+        "city_state": "",
+        "city_zipcode": "82710",
+        "cityid": 29
+    },
+    {
+        "city_country": "",
+        "city_name": "Kokinvaara",
+        "city_state": "",
+        "city_zipcode": "82865",
+        "cityid": 30
+    },
+    {
+        "city_country": "",
+        "city_name": "Kinahmo",
+        "city_state": "",
+        "city_zipcode": "83825",
+        "cityid": 31
+    },
+    {
+        "city_country": "",
+        "city_name": "Harinjärvi",
+        "city_state": "",
+        "city_zipcode": "83460",
+        "cityid": 32
+    },
+    {
+        "city_country": "",
+        "city_name": "Kuorevaara",
+        "city_state": "",
+        "city_zipcode": "83720",
+        "cityid": 33
+    },
+    {
+        "city_country": "",
+        "city_name": "Sotkuma",
+        "city_state": "",
+        "city_zipcode": "83750",
+        "cityid": 34
+    },
+    {
+        "city_country": "",
+        "city_name": "Sola",
+        "city_state": "",
+        "city_zipcode": "83760",
+        "cityid": 35
+    },
+    {
+        "city_country": "",
+        "city_name": "Horsmanaho",
+        "city_state": "",
+        "city_zipcode": "83780",
+        "cityid": 36
+    },
+    {
+        "city_country": "",
+        "city_name": "Hukkala",
+        "city_state": "",
+        "city_zipcode": "83830",
+        "cityid": 37
+    },
+    {
+        "city_country": "",
+        "city_name": "Ruvaslahti",
+        "city_state": "",
+        "city_zipcode": "83835",
+        "cityid": 38
+    },
+    {
+        "city_country": "",
+        "city_name": "Saarivaara",
+        "city_state": "",
+        "city_zipcode": "83840",
+        "cityid": 39
+    },
+    {
+        "city_country": "",
+        "city_name": "Martonvaara",
+        "city_state": "",
+        "city_zipcode": "83855",
+        "cityid": 40
+    },
+    {
+        "city_country": "",
+        "city_name": "Kaatamo",
+        "city_state": "",
+        "city_zipcode": "83330",
+        "cityid": 41
+    },
+    {
+        "city_country": "",
+        "city_name": "Kokonvaara",
+        "city_state": "",
+        "city_zipcode": "83550",
+        "cityid": 42
+    },
+    {
+        "city_country": "",
+        "city_name": "Kuusjärvi",
+        "city_state": "",
+        "city_zipcode": "83630",
+        "cityid": 43
+    },
+    {
+        "city_country": "",
+        "city_name": "Varislahti",
+        "city_state": "",
+        "city_zipcode": "83660",
+        "cityid": 44
+    },
+    {
+        "city_country": "",
+        "city_name": "Onttola",
+        "city_state": "",
+        "city_zipcode": "80510",
+        "cityid": 45
+    },
+    {
+        "city_country": "",
+        "city_name": "Kontiolahti as",
+        "city_state": "",
+        "city_zipcode": "80770",
+        "cityid": 47
+    },
+    {
+        "city_country": "",
+        "city_name": "Paihola",
+        "city_state": "",
+        "city_zipcode": "80850",
+        "cityid": 48
+    },
+    {
+        "city_country": "",
+        "city_name": "Kulho",
+        "city_state": "",
+        "city_zipcode": "80910",
+        "cityid": 49
+    },
+    {
+        "city_country": "",
+        "city_name": "Katajaranta",
+        "city_state": "",
+        "city_zipcode": "81120",
+        "cityid": 50
+    },
+    {
+        "city_country": "",
+        "city_name": "Romppala",
+        "city_state": "",
+        "city_zipcode": "81160",
+        "cityid": 51
+    },
+    {
+        "city_country": "",
+        "city_name": "Eno",
+        "city_state": "",
+        "city_zipcode": "81200",
+        "cityid": 52
+    },
+    {
+        "city_country": "",
+        "city_name": "Jakokoski",
+        "city_state": "",
+        "city_zipcode": "81220",
+        "cityid": 53
+    },
+    {
+        "city_country": "",
+        "city_name": "Mönni",
+        "city_state": "",
+        "city_zipcode": "81230",
+        "cityid": 54
+    },
+    {
+        "city_country": "",
+        "city_name": "Lehtoi",
+        "city_state": "",
+        "city_zipcode": "81235",
+        "cityid": 55
+    },
+    {
+        "city_country": "",
+        "city_name": "Ahveninen",
+        "city_state": "",
+        "city_zipcode": "81260",
+        "cityid": 56
+    },
+    {
+        "city_country": "",
+        "city_name": "Heinävaara",
+        "city_state": "",
+        "city_zipcode": "82110",
+        "cityid": 57
+    },
+    {
+        "city_country": "",
+        "city_name": "Viinijärvi",
+        "city_state": "",
+        "city_zipcode": "83400",
+        "cityid": 58
+    },
+    {
+        "city_country": "",
+        "city_name": "Ahmovaara",
+        "city_state": "",
+        "city_zipcode": "83950",
+        "cityid": 59
+    },
+    {
+        "city_country": "",
+        "city_name": "Ala-Luosta",
+        "city_state": "",
+        "city_zipcode": "73850",
+        "cityid": 60
+    },
+    {
+        "city_country": "",
+        "city_name": "Polvela",
+        "city_state": "",
+        "city_zipcode": "83870",
+        "cityid": 62
+    },
+    {
+        "city_country": "",
+        "city_name": "Kajoo",
+        "city_state": "",
+        "city_zipcode": "83880",
+        "cityid": 63
+    },
+    {
+        "city_country": "",
+        "city_name": "Juuka",
+        "city_state": "",
+        "city_zipcode": "83900",
+        "cityid": 64
+    },
+    {
+        "city_country": "",
+        "city_name": "Paalasmaa",
+        "city_state": "",
+        "city_zipcode": "83910",
+        "cityid": 65
+    },
+    {
+        "city_country": "",
+        "city_name": "Vihtasuo",
+        "city_state": "",
+        "city_zipcode": "83915",
+        "cityid": 66
+    },
+    {
+        "city_country": "",
+        "city_name": "Nunnanlahti",
+        "city_state": "",
+        "city_zipcode": "83940",
+        "cityid": 67
+    },
+    {
+        "city_country": "",
+        "city_name": "Tuopanjoki",
+        "city_state": "",
+        "city_zipcode": "83985",
+        "cityid": 68
+    },
+    {
+        "city_country": "",
+        "city_name": "Louhioja",
+        "city_state": "",
+        "city_zipcode": "81210",
+        "cityid": 69
+    },
+    {
+        "city_country": "",
+        "city_name": "Paukkaja",
+        "city_state": "",
+        "city_zipcode": "81270",
+        "cityid": 70
+    },
+    {
+        "city_country": "",
+        "city_name": "Uimaharju",
+        "city_state": "",
+        "city_zipcode": "81280",
+        "cityid": 71
+    },
+    {
+        "city_country": "",
+        "city_name": "Ukkola",
+        "city_state": "",
+        "city_zipcode": "81290",
+        "cityid": 72
+    },
+    {
+        "city_country": "",
+        "city_name": "Haapalahti",
+        "city_state": "",
+        "city_zipcode": "81295",
+        "cityid": 73
+    },
+    {
+        "city_country": "",
+        "city_name": "Kuismavaara",
+        "city_state": "",
+        "city_zipcode": "81320",
+        "cityid": 74
+    },
+    {
+        "city_country": "",
+        "city_name": "Luhtapohja",
+        "city_state": "",
+        "city_zipcode": "81330",
+        "cityid": 75
+    },
+    {
+        "city_country": "",
+        "city_name": "Tokrajärvi",
+        "city_state": "",
+        "city_zipcode": "81350",
+        "cityid": 76
+    },
+    {
+        "city_country": "",
+        "city_name": "Sarvinki",
+        "city_state": "",
+        "city_zipcode": "81360",
+        "cityid": 77
+    },
+    {
+        "city_country": "",
+        "city_name": "Revonkylä",
+        "city_state": "",
+        "city_zipcode": "81390",
+        "cityid": 78
+    },
+    {
+        "city_country": "",
+        "city_name": "Kelvä",
+        "city_state": "",
+        "city_zipcode": "81570",
+        "cityid": 79
+    },
+    {
+        "city_country": "",
+        "city_name": "Keskijärvi",
+        "city_state": "",
+        "city_zipcode": "82120",
+        "cityid": 80
+    },
+    {
+        "city_country": "",
+        "city_name": "Kiihtelysvaara",
+        "city_state": "",
+        "city_zipcode": "82140",
+        "cityid": 81
+    },
+    {
+        "city_country": "",
+        "city_name": "Oskola",
+        "city_state": "",
+        "city_zipcode": "82160",
+        "cityid": 82
+    },
+    {
+        "city_country": "",
+        "city_name": "Uskali",
+        "city_state": "",
+        "city_zipcode": "82170",
+        "cityid": 83
+    },
+    {
+        "city_country": "",
+        "city_name": "Huhtilampi",
+        "city_state": "",
+        "city_zipcode": "82180",
+        "cityid": 84
+    },
+    {
+        "city_country": "",
+        "city_name": "Hammaslahti",
+        "city_state": "",
+        "city_zipcode": "82200",
+        "cityid": 85
+    },
+    {
+        "city_country": "",
+        "city_name": "Suhmura",
+        "city_state": "",
+        "city_zipcode": "82210",
+        "cityid": 86
+    },
+    {
+        "city_country": "",
+        "city_name": "Niittylahti",
+        "city_state": "",
+        "city_zipcode": "82220",
+        "cityid": 87
+    },
+    {
+        "city_country": "",
+        "city_name": "Tuupovaara",
+        "city_state": "",
+        "city_zipcode": "82730",
+        "cityid": 88
+    },
+    {
+        "city_country": "",
+        "city_name": "Öllölä",
+        "city_state": "",
+        "city_zipcode": "82750",
+        "cityid": 89
+    },
+    {
+        "city_country": "",
+        "city_name": "Hoilola",
+        "city_state": "",
+        "city_zipcode": "82760",
+        "cityid": 90
+    },
+    {
+        "city_country": "",
+        "city_name": "Marjovaara",
+        "city_state": "",
+        "city_zipcode": "82815",
+        "cityid": 91
+    },
+    {
+        "city_country": "",
+        "city_name": "Maukkula",
+        "city_state": "",
+        "city_zipcode": "82820",
+        "cityid": 92
+    },
+    {
+        "city_country": "",
+        "city_name": "Pirttiaho",
+        "city_state": "",
+        "city_zipcode": "82840",
+        "cityid": 93
+    },
+    {
+        "city_country": "",
+        "city_name": "Kinnasniemi",
+        "city_state": "",
+        "city_zipcode": "82850",
+        "cityid": 94
+    },
+    {
+        "city_country": "",
+        "city_name": "Luutalahti",
+        "city_state": "",
+        "city_zipcode": "82870",
+        "cityid": 95
+    },
+    {
+        "city_country": "",
+        "city_name": "Mannervaara",
+        "city_state": "",
+        "city_zipcode": "82880",
+        "cityid": 96
+    },
+    {
+        "city_country": "",
+        "city_name": "Hattu",
+        "city_state": "",
+        "city_zipcode": "82967",
+        "cityid": 97
+    },
+    {
+        "city_country": "",
+        "city_name": "Nurmes",
+        "city_state": "",
+        "city_zipcode": "75530",
+        "cityid": 98
+    },
+    {
+        "city_country": "",
+        "city_name": "Savikylä",
+        "city_state": "",
+        "city_zipcode": "75650",
+        "cityid": 99
+    },
+    {
+        "city_country": "",
+        "city_name": "Ylä-Luosta",
+        "city_state": "",
+        "city_zipcode": "75680",
+        "cityid": 100
+    },
+    {
+        "city_country": "",
+        "city_name": "Karhunpää",
+        "city_state": "",
+        "city_zipcode": "75710",
+        "cityid": 101
+    },
+    {
+        "city_country": "",
+        "city_name": "Pajukoski",
+        "city_state": "",
+        "city_zipcode": "75740",
+        "cityid": 102
+    },
+    {
+        "city_country": "",
+        "city_name": "Saramo",
+        "city_state": "",
+        "city_zipcode": "75890",
+        "cityid": 103
+    },
+    {
+        "city_country": "",
+        "city_name": "Petäiskylä",
+        "city_state": "",
+        "city_zipcode": "75930",
+        "cityid": 104
+    },
+    {
+        "city_country": "",
+        "city_name": "Mujejärvi",
+        "city_state": "",
+        "city_zipcode": "75940",
+        "cityid": 105
+    },
+    {
+        "city_country": "",
+        "city_name": "Kohtavaara",
+        "city_state": "",
+        "city_zipcode": "75970",
+        "cityid": 106
+    },
+    {
+        "city_country": "",
+        "city_name": "Höljäkkä",
+        "city_state": "",
+        "city_zipcode": "75990",
+        "cityid": 107
+    },
+    {
+        "city_country": "",
+        "city_name": "Mätäsvaara",
+        "city_state": "",
+        "city_zipcode": "81850",
+        "cityid": 108
+    },
+    {
+        "city_country": "",
+        "city_name": "Viekijärvi",
+        "city_state": "",
+        "city_zipcode": "81860",
+        "cityid": 109
+    },
+    {
+        "city_country": "",
+        "city_name": "Vuonisjärvi",
+        "city_state": "",
+        "city_zipcode": "81560",
+        "cityid": 110
+    },
+    {
+        "city_country": "",
+        "city_name": "Vuonislahti",
+        "city_state": "",
+        "city_zipcode": "81590",
+        "cityid": 111
+    },
+    {
+        "city_country": "",
+        "city_name": "Hattuvaara",
+        "city_state": "",
+        "city_zipcode": "81650",
+        "cityid": 112
+    },
+    {
+        "city_country": "",
+        "city_name": "Lehmikylä",
+        "city_state": "",
+        "city_zipcode": "81660",
+        "cityid": 113
+    },
+    {
+        "city_country": "",
+        "city_name": "Pankakoski",
+        "city_state": "",
+        "city_zipcode": "81750",
+        "cityid": 114
+    },
+    {
+        "city_country": "",
+        "city_name": "Jamali",
+        "city_state": "",
+        "city_zipcode": "81810",
+        "cityid": 115
+    },
+    {
+        "city_country": "",
+        "city_name": "Kylänlahti",
+        "city_state": "",
+        "city_zipcode": "81820",
+        "cityid": 116
+    },
+    {
+        "city_country": "",
+        "city_name": "Pankajärvi",
+        "city_state": "",
+        "city_zipcode": "81950",
+        "cityid": 117
+    },
+    {
+        "city_country": "",
+        "city_name": "Jongunjoki",
+        "city_state": "",
+        "city_zipcode": "81970",
+        "cityid": 118
+    },
+    {
+        "city_country": "",
+        "city_name": "Tyrjänsaari",
+        "city_state": "",
+        "city_zipcode": "81420",
+        "cityid": 119
+    },
+    {
+        "city_country": "",
+        "city_name": "Kivilahti",
+        "city_state": "",
+        "city_zipcode": "81430",
+        "cityid": 120
+    },
+    {
+        "city_country": "",
+        "city_name": "Huhus",
+        "city_state": "",
+        "city_zipcode": "81450",
+        "cityid": 121
+    },
+    {
+        "city_country": "",
+        "city_name": "Käenkoski",
+        "city_state": "",
+        "city_zipcode": "81460",
+        "cityid": 122
+    },
+    {
+        "city_country": "",
+        "city_name": "Naarva",
+        "city_state": "",
+        "city_zipcode": "81470",
+        "cityid": 123
+    },
+    {
+        "city_country": "",
+        "city_name": "Haukivaara",
+        "city_state": "",
+        "city_zipcode": "82830",
+        "cityid": 124
+    },
+    {
+        "city_country": "",
+        "city_name": "Sonkaja",
+        "city_state": "",
+        "city_zipcode": "82915",
+        "cityid": 125
+    },
+    {
+        "city_country": "",
+        "city_name": "Lehtovaara",
+        "city_state": "",
+        "city_zipcode": "82960",
+        "cityid": 126
+    },
+    {
+        "city_country": "",
+        "city_name": "Möhkö",
+        "city_state": "",
+        "city_zipcode": "82980",
+        "cityid": 127
+    },
+    {
+        "city_country": "",
+        "city_name": "Villala",
+        "city_state": "",
+        "city_zipcode": "58350",
+        "cityid": 128
+    },
+    {
+        "city_country": "",
+        "city_name": "Hiukkajoki",
+        "city_state": "",
+        "city_zipcode": "58520",
+        "cityid": 129
+    },
+    {
+        "city_country": "",
+        "city_name": "Uukuniemi",
+        "city_state": "",
+        "city_zipcode": "59710",
+        "cityid": 130
+    },
+    {
+        "city_country": "",
+        "city_name": "Kesälahti",
+        "city_state": "",
+        "city_zipcode": "59800",
+        "cityid": 131
+    },
+    {
+        "city_country": "",
+        "city_name": "Suurikylä",
+        "city_state": "",
+        "city_zipcode": "59810",
+        "cityid": 132
+    },
+    {
+        "city_country": "",
+        "city_name": "Purujärvi",
+        "city_state": "",
+        "city_zipcode": "59820",
+        "cityid": 133
+    },
+    {
+        "city_country": "",
+        "city_name": "Onkamo",
+        "city_state": "",
+        "city_zipcode": "82360",
+        "cityid": 134
+    },
+    {
+        "city_country": "",
+        "city_name": "Tolosenmäki",
+        "city_state": "",
+        "city_zipcode": "82380",
+        "cityid": 135
+    },
+    {
+        "city_country": "",
+        "city_name": "Haarajärvi",
+        "city_state": "",
+        "city_zipcode": "82395",
+        "cityid": 136
+    },
+    {
+        "city_country": "",
+        "city_name": "Puhos",
+        "city_state": "",
+        "city_zipcode": "82430",
+        "cityid": 137
+    },
+    {
+        "city_country": "",
+        "city_name": "Hummovaara",
+        "city_state": "",
+        "city_zipcode": "82460",
+        "cityid": 138
+    },
+    {
+        "city_country": "",
+        "city_name": "Heinoniemi",
+        "city_state": "",
+        "city_zipcode": "82490",
+        "cityid": 139
+    },
+    {
+        "city_country": "",
+        "city_name": "Kiteenlahti",
+        "city_state": "",
+        "city_zipcode": "82510",
+        "cityid": 140
+    },
+    {
+        "city_country": "",
+        "city_name": "Juurikka",
+        "city_state": "",
+        "city_zipcode": "82580",
+        "cityid": 141
+    },
+    {
+        "city_country": "",
+        "city_name": "Närsäkkälä",
+        "city_state": "",
+        "city_zipcode": "82590",
+        "cityid": 142
+    },
+    {
+        "city_country": "",
+        "city_name": "Littilä",
+        "city_state": "",
+        "city_zipcode": "82685",
+        "cityid": 143
+    },
+    {
+        "city_country": "",
+        "city_name": "Ylämylly",
+        "city_state": "",
+        "city_zipcode": "80400",
+        "cityid": 144
+    },
+    {
+        "city_country": "",
+        "city_name": "Liperi",
+        "city_state": "",
+        "city_zipcode": "83100",
+        "cityid": 145
+    },
+    {
+        "city_country": "",
+        "city_name": "Salokylä",
+        "city_state": "",
+        "city_zipcode": "83130",
+        "cityid": 146
+    },
+    {
+        "city_country": "",
+        "city_name": "Puromäki",
+        "city_state": "",
+        "city_zipcode": "83140",
+        "cityid": 147
+    },
+    {
+        "city_country": "",
+        "city_name": "Roukalahti",
+        "city_state": "",
+        "city_zipcode": "83150",
+        "cityid": 148
+    },
+    {
+        "city_country": "",
+        "city_name": "Tutjunniemi",
+        "city_state": "",
+        "city_zipcode": "83160",
+        "cityid": 149
+    },
+    {
+        "city_country": "",
+        "city_name": "Risti",
+        "city_state": "",
+        "city_zipcode": "83320",
+        "cityid": 150
+    },
+    {
+        "city_country": "",
+        "city_name": "Kaarnalampi",
+        "city_state": "",
+        "city_zipcode": "83340",
+        "cityid": 151
+    },
+    {
+        "city_country": "",
+        "city_name": "Käsämä",
+        "city_state": "",
+        "city_zipcode": "83430",
+        "cityid": 152
+    },
+    {
+        "city_country": "",
+        "city_name": "Vaivio",
+        "city_state": "",
+        "city_zipcode": "83450",
+        "cityid": 153
+    },
+    {
+        "city_country": "",
+        "city_name": "Ahonkylä",
+        "city_state": "",
+        "city_zipcode": "83480",
+        "cityid": 154
+    },
+    {
+        "city_country": "",
+        "city_name": "Nieminen",
+        "city_state": "",
+        "city_zipcode": "82290",
+        "cityid": 155
+    },
+    {
+        "city_country": "",
+        "city_name": "Oravisalo",
+        "city_state": "",
+        "city_zipcode": "82310",
+        "cityid": 156
+    },
+    {
+        "city_country": "",
+        "city_name": "Rasivaara",
+        "city_state": "",
+        "city_zipcode": "82335",
+        "cityid": 157
+    },
+    {
+        "city_country": "",
+        "city_name": "Tikkala",
+        "city_state": "",
+        "city_zipcode": "82350",
+        "cityid": 158
+    },
+    {
+        "city_country": "",
+        "city_name": "Värtsilä",
+        "city_state": "",
+        "city_zipcode": "82655",
+        "cityid": 159
+    },
+    {
+        "city_country": "",
+        "city_name": "Uusi-Värtsilä",
+        "city_state": "",
+        "city_zipcode": "82660",
+        "cityid": 160
+    },
+    {
+        "city_country": "",
+        "city_name": "Kaurila",
+        "city_state": "",
+        "city_zipcode": "82670",
+        "cityid": 161
+    },
+    {
+        "city_country": "",
+        "city_name": "Niirala",
+        "city_state": "",
+        "city_zipcode": "82675",
+        "cityid": 162
+    },
+    {
+        "city_country": "",
+        "city_name": "Kaustajärvi",
+        "city_state": "",
+        "city_zipcode": "82770",
+        "cityid": 163
+    },
+    {
+        "city_country": "",
+        "city_name": "Kaavi",
+        "city_state": "",
+        "city_zipcode": "73600",
+        "cityid": 164
+    },
+    {
+        "city_country": "",
+        "city_name": "Luikonlahti",
+        "city_state": "",
+        "city_zipcode": "73670",
+        "cityid": 165
+    },
+    {
+        "city_country": "",
+        "city_name": "Tuusniemi",
+        "city_state": "",
+        "city_zipcode": "71200",
+        "cityid": 166
+    },
+    {
+        "city_country": "",
+        "city_name": "Paakkila",
+        "city_state": "",
+        "city_zipcode": "71240",
+        "cityid": 167
+    },
+    {
+        "city_country": "",
+        "city_name": "Puukari",
+        "city_state": "",
+        "city_zipcode": "75770",
+        "cityid": 168
+    },
+    {
+        "city_country": "",
+        "city_name": "Rumo",
+        "city_state": "",
+        "city_zipcode": "75790",
+        "cityid": 169
+    },
+    {
+        "city_country": "",
+        "city_name": "Ylä-Valtimo",
+        "city_state": "",
+        "city_zipcode": "75840",
+        "cityid": 170
+    },
+    {
+        "city_country": "",
+        "city_name": "Maanselkä",
+        "city_state": "",
+        "city_zipcode": "88690",
+        "cityid": 171
+    },
+    {
+        "city_country": "",
+        "city_name": "Heinävesi",
+        "city_state": "",
+        "city_zipcode": "79700",
+        "cityid": 172
+    },
+    {
+        "city_country": "",
+        "city_name": "Vihtari",
+        "city_state": "",
+        "city_zipcode": "79940",
+        "cityid": 173
+    },
+    {
+        "city_country": "",
+        "city_name": "Karvionkanava",
+        "city_state": "",
+        "city_zipcode": "79810",
+        "cityid": 174
+    },
+    {
+        "city_country": "",
+        "city_name": "Sarvikumpu",
+        "city_state": "",
+        "city_zipcode": "79895",
+        "cityid": 175
+    },
+    {
+        "city_country": "",
+        "city_name": "Etelä-Petruma",
+        "city_state": "",
+        "city_zipcode": "79885",
+        "cityid": 176
+    },
+    {
+        "city_country": "",
+        "city_name": "Varistaival",
+        "city_state": "",
+        "city_zipcode": "79820",
+        "cityid": 177
+    },
+    {
+        "city_country": "",
+        "city_name": "Palokki",
+        "city_state": "",
+        "city_zipcode": "79830",
+        "cityid": 178
+    },
+    {
+        "city_country": "",
+        "city_name": "Suuraho",
+        "city_state": "",
+        "city_zipcode": "79860",
+        "cityid": 179
+    },
+    {
+        "city_country": "",
+        "city_name": "Uusi-Valamo",
+        "city_state": "",
+        "city_zipcode": "79850",
+        "cityid": 180
+    },
+    {
+        "city_country": "",
+        "city_name": "Kerma",
+        "city_state": "",
+        "city_zipcode": "79910",
+        "cityid": 181
+    }
+]
