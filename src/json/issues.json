@@ -18,6 +18,8 @@
             "musical_regordins": 0,
             "_showDetails": true,
             "itemtypes": {
+                "data": [
+                    {
                 
                 "KALVO": 100,
                 "VIDEOKAS": 0,
@@ -74,6 +76,7 @@
                 "EVIDEO": 0,
                 "PUHECD": 0,
                 "ELEKTRON": 0
+                    }]
             },
             "total": 0,
             "books_other_lang": 0,

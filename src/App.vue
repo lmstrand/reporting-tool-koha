@@ -58,7 +58,11 @@
       </template>
 
       <template #row-details="row">
-        <b-card>
+        <b-table striped hover :items=row.item.itemtypes.data>
+        
+        
+        
+<!--      <b-card>
           <b-row class="mb-2">
             <b-col sm="3" class="text-sm-right"><b>Age:</b></b-col>
             <b-col>{{ row.item.itemtypes.KALVO }}</b-col>
@@ -71,6 +75,10 @@
 
           <b-button size="sm" @click="row.toggleDetails">Hide Details</b-button>
         </b-card>
+        
+        -->
+       <b-button size="sm" @click="row.toggleDetails">Hide Details</b-button> 
+       </b-table>
       </template>
   
       ></b-table>
@@ -108,6 +116,13 @@ let fields = [
                 
             ];
 
+let itemtypefields = [
+ 
+                { label:"Celia",key: "CELIA" },
+                { label:"KALVO",key: "KALVO" },
+                
+            ];
+
 
 
             
@@ -120,7 +135,8 @@ let fields = [
     
    return {
      isBusy: false,
-     fields, 
+     fields,
+     itemtypefields,
     myJson: json 
     };
   },
