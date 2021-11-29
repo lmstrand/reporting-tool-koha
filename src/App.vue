@@ -3,10 +3,10 @@
 
  <div id="app" class="container-fluid">
    
-   <div class="container">
+   <div class="b-container-fluid">
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 
-   <a class="navbar-brand" href="#">Navbar w/ text</a>
+   <a class="navbar-brand" href="#">REPORTS PLUGIN</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -16,14 +16,14 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Issues</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#">1</a>
       </li>
     </ul>
     <span class="navbar-text">
-      Navbar text with an inline element
+      2
     </span>
   </div>
     
@@ -36,8 +36,34 @@
 <button type="button" class="btn btn-success">Success</button>
 <b-button @click="toggleBusy">Toggle Busy State</b-button>
 
+<b-row>
+<b-col lg="6" class="my-1">
+        <b-form-group
+          label="Filter"
+          label-for="filter-input"
+          label-cols-sm="3"
+          label-align-sm="right"
+          label-size="sm"
+          class="mb-0"
+        >
+          <b-input-group size="sm">
+            <b-form-input
+              id="filter-input"
+              v-model="filter"
+              type="search"
+              placeholder="Type to Search"
+            ></b-form-input>
+
+            <b-input-group-append>
+              <b-button :disabled="!filter" @click="filter = ''">Clear</b-button>
+            </b-input-group-append>
+          </b-input-group>
+        </b-form-group>
+      </b-col>
+ </b-row>     
+      
    
-  <b-table striped responsive="sm" small sort-icon-left :fields=fields :items=myJson.data :busy="isBusy"  >
+  <b-table striped responsive="sm" bordered outlined small sort-icon-left :fields=fields :items=myJson.data :busy="isBusy"  :filter="filter">
   
   <template #table-busy>
         <div class="text-center text-danger my-2">
@@ -58,7 +84,7 @@
       </template>
 
       <template #row-details="row">
-        <b-table striped hover :items=row.item.itemtypes.data>
+        <b-table class="w-100 p-3 bordered outlined text-light" striped hover responsive="sm" :items=row.item.itemtypes.data>
         
         
         
@@ -98,21 +124,22 @@ import json from './json/issues.json'
 let fields = [
  
                 { label:"Kirjasto",key: "library", sortable: true, stickyColumn: true, isRowHeader: true, variant: 'primary' },
-                { label:"Kirjat suomenkieliset", key:"books_finnish" },
-                { label:"Kirjat ruotsinkieliset", key:"books_swedish" },
-                { label:"Kirjat saamenkieliset",key: "books_sami"  },
-                { label:"Kirjat muunkieliset", key:"books_other_lang" },
-                { label:"Kirjat fakta aikuiset",key: "books_fact_adult"  },
-                { label:"Kirjat fakta nuoret",key: "books_fact_juvenile"  },
-                { label:"Kirjat fiktio aikuiset",key: "books_fact_adult"  },
-                { label:"Kirjat fiktio nuoret",key: "books_fact_juvenile"  },
-                { label:"Kirjat Yhteensä",key: "books_total"  },
-                { label:"Musiikkiäänitteet", key:"musical_regordins" },
-                { label:"Celia", key:"celia" },
-                { label:"Muut äänitteet", key:"other_regording" },
-                { label:"Videot", key:"videos" },
-                { label:"Itemtypes", key:"itemtypes" },
-                { label:"Yhteensä", key:"total" },
+                { label:"Kirjat suomenkieliset", key:"books_finnish", sortable: true},
+                { label:"Kirjat ruotsinkieliset", key:"books_swedish" , sortable: true},
+                { label:"Kirjat saamenkieliset",key: "books_sami" , sortable: true },
+                { label:"Kirjat muunkieliset", key:"books_other_lang" , sortable: true},
+                { label:"Kirjat fakta aikuiset",key: "books_fact_adult"  , sortable: true},
+                { label:"Kirjat fakta nuoret",key: "books_fact_juvenile" , sortable: true },
+                { label:"Kirjat fiktio aikuiset",key: "books_fact_adult"  , sortable: true},
+                { label:"Kirjat fiktio nuoret",key: "books_fact_juvenile" , sortable: true },
+                { label:"Kirjat Yhteensä",key: "books_total"  , sortable: true},
+                { label:"Musiikkiäänitteet", key:"musical_regordins", sortable: true },
+                { label:"Celia", key:"celia" , sortable: true},
+                { label:"Muut äänitteet", key:"other_regording" , sortable: true},
+                { label:"Videot", key:"videos" , sortable: true},
+                { label:"Yhteensä", key:"total" , sortable: true},
+                { label:"Itemtypes", key:"itemtypes" , sortable: true},
+                
                 
             ];
 
@@ -134,6 +161,7 @@ let itemtypefields = [
     
     
    return {
+     filter: '',
      isBusy: false,
      fields,
      itemtypefields,
@@ -155,8 +183,19 @@ let itemtypefields = [
       }
     },
     
-    
+        computed: {
+      sortOptions() {
+        // Create an options list from our fields
+        return this.fields
+          .filter(f => f.sortable)
+          .map(f => {
+            return { text: f.label, value: f.key }
+          })
+      }
+    },
   }
+  
+  
  }
 </script>
 
