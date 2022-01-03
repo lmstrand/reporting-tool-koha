@@ -1,4 +1,3 @@
-
 <template>
   <div id="app" class="container-fluid">
     <div class="b-container-fluid">
@@ -23,7 +22,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Issues</a>
+              <a class="nav-link" href="#">Takaisin kohaan</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">1</a>
@@ -34,61 +33,119 @@
       </nav>
     </div>
 
-    <button type="button" class="btn btn-secondary" v-on:click="greet">
-      Greet
-    </button>
-
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <b-button type="button" class="btn btn-success" @click="exportToCsv"
-      >CSV</b-button
-    >
-    <b-button @click="toggleBusy">Toggle Busy State</b-button>
-    <b-button @click="showIssues">Issues</b-button>
-    <b-button @click="showCities">API Cities</b-button>
-
-    <b-dropdown id="dropdown-divider" text="Kuukausi" class="m-2">
-      <b-dropdown-item-button>Tammikuu</b-dropdown-item-button>
-      <b-dropdown-item-button>Helmikuu</b-dropdown-item-button>
-      <b-dropdown-divider></b-dropdown-divider>
-      <b-dropdown-item-button>Koko vuosi</b-dropdown-item-button>
-    </b-dropdown>
-
-    <b-dropdown id="dropdown-divider" text="Vuosi" class="m-2">
-      <b-dropdown-item-button>2021</b-dropdown-item-button>
-      <b-dropdown-item-button>2020</b-dropdown-item-button>
-      <b-dropdown-item-button>2019</b-dropdown-item-button>
-    </b-dropdown>
-
     <div>
-      <b-form-select
-        v-model="selected"
-        :options="options"
-        size="sm"
-        class="mt-3"
-      ></b-form-select>
-      <div class="mt-3">
-        Selected: <strong>{{ selectedMonth }}</strong>
-      </div>
-    </div>
+      <b-card no-body>
+        <b-tabs
+          pills
+          card
+          active-nav-item-class="font-weight-bold text-uppercase"
+        >
+          <b-tab class="butt" title="Lainat(issues)" active @click="showOkm"
+            ><b-card-text>Tab contents 1</b-card-text>
+            <b-dropdown id="dropdown-divider" text="Kuukausi" class="m-2">
+              <b-dropdown-item-button>Tammikuu</b-dropdown-item-button>
+              <b-dropdown-item-button>Helmikuu</b-dropdown-item-button>
+              <b-dropdown-divider></b-dropdown-divider>
+              <b-dropdown-item-button>Koko vuosi</b-dropdown-item-button>
+            </b-dropdown>
+            <button type="button" class="btn btn-secondary" v-on:click="greet">
+              Greet
+            </button>
 
-    <b-row class="mb-6">
-      <b-col lg="2" class="my-1">
-        <b-form-datepicker
-          id="example-datepicker"
-          v-model="lowDate"
-        ></b-form-datepicker>
-      </b-col>
-      <b-col lg="2" class="my-1">
-        <b-form-datepicker
-          v-b-popover.hover="
-            'Valitse loppupvm:ksi viimeiseksi raportoitavaa päivää seuraava päivä'
-          "
-          title="Ohje:"
-          id="example-datepicker"
-          v-model="maxDate"
-        ></b-form-datepicker>
-      </b-col>
-    </b-row>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <b-button type="button" class="btn btn-success" @click="exportToCsv"
+              >CSV</b-button
+            >
+            <b-button @click="toggleBusy">Toggle Busy State</b-button>
+            <b-button @click="showIssues2">Issues</b-button>
+            <b-button @click="showCities">API Cities</b-button>
+
+            <b-dropdown id="dropdown-divider" text="Kuukausi" class="m-2">
+              <b-dropdown-item-button>Tammikuu</b-dropdown-item-button>
+              <b-dropdown-item-button>Helmikuu</b-dropdown-item-button>
+              <b-dropdown-divider></b-dropdown-divider>
+              <b-dropdown-item-button>Koko vuosi</b-dropdown-item-button>
+            </b-dropdown>
+
+            <b-dropdown id="dropdown-divider" text="Vuosi" class="m-2">
+              <b-dropdown-item-button>2021</b-dropdown-item-button>
+              <b-dropdown-item-button>2020</b-dropdown-item-button>
+              <b-dropdown-item-button>2019</b-dropdown-item-button>
+            </b-dropdown>
+
+            <div>
+              <b-form-select
+                v-model="selected"
+                :options="options"
+                size="sm"
+                class="mt-3"
+              ></b-form-select>
+              <div class="mt-3">
+                Selected: <strong>{{ selectedMonth }}</strong>
+              </div>
+            </div>
+
+            <b-row class="mb-6">
+              <b-col lg="2" class="my-1">
+                <b-form-datepicker
+                  id="example-datepicker"
+                  v-model="lowDate"
+                ></b-form-datepicker>
+              </b-col>
+              <b-col lg="2" class="my-1">
+                <b-form-datepicker
+                  v-b-popover.hover="
+                    'Valitse loppupvm:ksi viimeiseksi raportoitavaa päivää seuraava päivä'
+                  "
+                  title="Ohje:"
+                  id="example-datepicker"
+                  v-model="maxDate"
+                ></b-form-datepicker>
+              </b-col>
+            </b-row>
+          </b-tab>
+          <b-tab title="Hankinnat"
+            ><b-card-text>Tab contents 2</b-card-text></b-tab
+          >
+          <b-tab title="Kokoelmat(collection)"
+            ><b-card-text>Tab contents 3</b-card-text></b-tab
+          >
+          <b-tab title="Asiakkaat(users)"
+            ><b-card-text>Tab contents 3</b-card-text></b-tab
+          >
+          <b-tab title="Varausmäärät"
+            ><b-card-text>Tab contents 3</b-card-text></b-tab
+          >
+          <b-tab title="Poistot"
+            ><b-card-text>Tab contents 3</b-card-text></b-tab
+          >
+          <b-tab title="Kaukopalvelu"
+            ><b-card-text>Tab contents 3</b-card-text></b-tab
+          >
+          <b-tab title="okmdata:issues" @click="showOkm"
+            ><b-card-text>Tab contents 3</b-card-text></b-tab
+          >
+          <b-tab title="orig-issues" @click="showIssues"
+            ><b-card-text>Tab contents 3</b-card-text></b-tab
+          >
+          <b-tab title="API Cities" @click="showCities">
+            <b-card-text>Postinumerot tietokannassa (API)</b-card-text>
+
+              <div class="row">
+                <div class="col-md-12 bg-light float-right">
+                  <b-button
+                    type="button"
+                    class="btn btn-success"
+                    @click="exportToCsv"
+                    >Vie CSV</b-button
+                  >
+                </div>
+
+            </div>
+          </b-tab>
+        </b-tabs>
+      </b-card>
+    </div>
 
     <b-row>
       <b-col lg="4" class="my-1">
@@ -134,7 +191,7 @@
       :filter="filter"
     >
       <template #table-busy>
-        <div class="text-center text-danger my-2">
+        <div class="text-center text-info my-2">
           <b-spinner class="align-middle"></b-spinner>
           <strong>Loading...</strong>
         </div>
@@ -189,9 +246,14 @@
   
   
 <script>
-import json from "./json/issues.json";
+import issuesjson from "./json/issues.json";
 import cities from "./json/cities.json";
+import issues2 from "./json/issues.json";
+import okmissues from "./json/okmissues.json";
 import axios from "axios";
+
+import cityfields from "./fieldtemplates/cityfields.js";
+import okmissuefields from "./fieldtemplates/okmissuefields.js";
 
 let fields = [
   {
@@ -243,9 +305,9 @@ export default {
       maxDate: "",
       filter: "",
       isBusy: false,
-      fields,
-      itemtypefields,
-      myJson: json,
+      fields: null,
+      itemtypefields: null,
+      myJson: issues2.data, //oletusdata
     };
   },
 
@@ -276,13 +338,63 @@ export default {
       }
     },
 
-    showIssues() {
+    showSomething() {
       this.isBusy = !this.isBusy;
       this.fields = [
         { label: "City", key: "city_name", sortable: true },
         { label: "Zipcode", key: "city_zipcode" },
       ];
+      this.itemtypefields = itemtypefields;
       this.myJson.data = cities;
+      this.isBusy = !this.isBusy;
+    },
+
+    showIssues() {
+      this.myJson.data = null;
+      this.fields = null;
+      this.itemtypefields = null;
+      this.isBusy = !this.isBusy;
+
+      this.fields = fields;
+      this.itemtypefields = itemtypefields;
+
+      this.myJson.data = issuesjson.data;
+      (this.filter = ""), (this.isBusy = !this.isBusy);
+    },
+
+    showIssues2() {
+      this.myJson.data = null;
+      this.fields = null;
+      this.isBusy = !this.isBusy;
+
+      this.fields = fields;
+
+      this.myJson.data = issues2.data;
+      this.isBusy = !this.isBusy;
+    },
+
+    showOkm() {
+      this.myJson.data = null;
+      this.fields = null;
+      this.isBusy = !this.isBusy;
+      //this.fields = [
+      //  { label: "City", key: "city_name", sortable: true },
+      //  { label: "Zipcode", key: "city_zipcode" },
+      //];
+      this.fields = okmissuefields;
+      this.myJson.data = okmissues.issues;
+      this.isBusy = !this.isBusy;
+    },
+
+    showAllOkm() {
+      this.myJson.data = null;
+      this.fields = null;
+      this.isBusy = !this.isBusy;
+      //this.fields = [
+      //  { label: "City", key: "city_name", sortable: true },
+      //  { label: "Zipcode", key: "city_zipcode" },
+      //];
+      //this.myJson.data = okmjson;
       this.isBusy = !this.isBusy;
     },
 
@@ -294,10 +406,8 @@ export default {
         const response = await axios.get(
           `http://127.0.1.1:8080/api/v1/cities/`
         );
-        this.fields = [
-        { label: "City", key: "city_name", sortable: true },
-        { label: "Zipcode", key: "city_zipcode" },
-      ];
+
+        this.fields = cityfields;
         this.myJson.data = response.data;
         this.isBusy = !this.isBusy;
       } catch (e) {

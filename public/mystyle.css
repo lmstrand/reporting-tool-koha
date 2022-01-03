@@ -48,6 +48,17 @@ Custom media queries
 /* Set width to make card deck cards 100% width */
 @media (min-width: 950px) and (max-width:2800px) { 
   h1 {font-size:0.75rem;color:red !important; } 
-} 
-  
-.btn { font-size: 20px }
+}
+
+.butt:active{
+  color: rgb(196, 27, 27);
+  background: #87b63c!important;
+  outline: none;
+  box-shadow: none !important;
+}
+.butt:focus{
+  color: darkmagenta;
+  background: #76ad1d!important;
+  outline: none;
+  box-shadow: none !important;
+}
