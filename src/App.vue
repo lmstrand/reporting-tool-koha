@@ -125,22 +125,27 @@
           <b-tab title="okmdata:issues" @click="showOkm"
             ><b-card-text>Tab contents 3</b-card-text></b-tab
           >
+          <b-tab title="okmdata:all" @click="showOkmAll"
+            ><b-card-text>Tab contents 3</b-card-text></b-tab
+          >
+          <b-tab title="okmdata:moddedjson" @click="showOkmAllModded"
+            ><b-card-text>Tab contents 3</b-card-text></b-tab
+          >
           <b-tab title="orig-issues" @click="showIssues"
             ><b-card-text>Tab contents 3</b-card-text></b-tab
           >
           <b-tab title="API Cities" @click="showCities">
             <b-card-text>Postinumerot tietokannassa (API)</b-card-text>
 
-              <div class="row">
-                <div class="col-md-12 bg-light float-right">
-                  <b-button
-                    type="button"
-                    class="btn btn-success"
-                    @click="exportToCsv"
-                    >Vie CSV</b-button
-                  >
-                </div>
-
+            <div class="row">
+              <div class="col-md-12 bg-light float-right">
+                <b-button
+                  type="button"
+                  class="btn btn-success"
+                  @click="exportToCsv"
+                  >Vie CSV</b-button
+                >
+              </div>
             </div>
           </b-tab>
         </b-tabs>
@@ -148,7 +153,7 @@
     </div>
 
     <b-row>
-      <b-col lg="4" class="my-1">
+      <b-col lg="8" class="my-1">
         <b-form-group
           label="Suodata"
           label-for="filter-input"
@@ -164,12 +169,19 @@
               type="search"
               placeholder="Etsi..."
             ></b-form-input>
+            <div>
+      Sorting By: <b>{{ sortBy }}</b>, Sort Direction:
+      <b>{{ sortDesc ? 'Descending' : 'Ascending' }}</b>
+    </div>
 
-            <b-input-group-append>
-              <b-button :disabled="!filter" @click="filter = ''"
-                >Tyhjennä</b-button
+            <b-input-group class="mt-3">
+              <b-button :disabled="!filter" @click="filter = null"
+          lg="4"      >Tyhjennä suodatin</b-button
               >
-            </b-input-group-append>
+              <b-button @click="sortBy = null"
+          lg="4"      >Tyhjennä järjestys</b-button
+              >
+            </b-input-group>
           </b-input-group>
         </b-form-group>
       </b-col>
@@ -185,6 +197,8 @@
       outlined
       small
       sort-icon-left
+      :sort-by.sync="sortBy"
+      :sort-desc.sync="sortDesc"
       :fields="fields"
       :items="myJson.data"
       :busy="isBusy"
@@ -246,14 +260,21 @@
   
   
 <script>
+import axios from "axios";
+
 import issuesjson from "./json/issues.json";
 import cities from "./json/cities.json";
 import issues2 from "./json/issues.json";
 import okmissues from "./json/okmissues.json";
-import axios from "axios";
+import okmall from "./json/okmstatsdbjson.json";
+//import okmstatsmoddedjson from "./json/okmstatsmoddedjson.json";
+import uusokmtest from "./json/uusokmtest.json";
 
 import cityfields from "./fieldtemplates/cityfields.js";
 import okmissuefields from "./fieldtemplates/okmissuefields.js";
+import okmallfields from "./fieldtemplates/okmallfields.js";
+import uusokmtestfields from "./fieldtemplates/uusokmtestfields.js";
+
 
 let fields = [
   {
@@ -291,6 +312,8 @@ export default {
 
   data() {
     return {
+      sortBy: 'library',
+      sortDesc: false,
       selected: null,
       filtered: null,
       selectedMonth: null,
@@ -383,18 +406,65 @@ export default {
       //];
       this.fields = okmissuefields;
       this.myJson.data = okmissues.issues;
+
       this.isBusy = !this.isBusy;
     },
 
-    showAllOkm() {
+    showOkmAll() {
+      this.isBusy = !this.isBusy;
       this.myJson.data = null;
       this.fields = null;
-      this.isBusy = !this.isBusy;
+      //this.fields = [
+      //  { label: "ID", key: "city_name", sortable: true },
+      //  { label: "Zipcode", key: "city_zipcode" },
+      //];
+      
       //this.fields = [
       //  { label: "City", key: "city_name", sortable: true },
       //  { label: "Zipcode", key: "city_zipcode" },
       //];
-      //this.myJson.data = okmjson;
+      // Converting JSON object to JS object
+      //var obj = JSON.parse(JSON.stringify(okmall));
+      
+      console.log(okmall);
+      
+      const keys = [];
+      
+      for (let [key, value] of Object.entries(okmall)) {
+          console.log(key, value);
+          keys.push({"library": key});
+          
+      }
+      
+      console.log(keys);
+      
+      for (const [key, value] of Object.entries(keys)) {
+          console.log(key, value);
+      }
+      
+      //const builtarray = [];
+      //var labels = '{"data":[{"library":"SII_PK"},{"library":"SII_AU"},{"library":"SII_VU"}]}';
+
+      //var okmmoddata = JSON.parse(labels);
+
+      //okmmoddata.data.library["SII_PK"].issues = okmall.SII_PK.issues;
+
+      this.fields = okmallfields;
+      
+      this.itemtypefields = itemtypefields;
+      this.myJson.data = keys;
+      this.isBusy = !this.isBusy;
+    },
+
+    showOkmAllModded() {
+      this.isBusy = !this.isBusy;
+      this.myJson.data = null;
+      this.fields = null;
+      this.fields = uusokmtestfields;
+      
+      this.myJson.data = uusokmtest;
+      console.log(uusokmtest);
+      
       this.isBusy = !this.isBusy;
     },
 
